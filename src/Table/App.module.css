@@ -1,0 +1,28 @@
+.shadow-specific {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+.MyCustomTable {
+  max-height: 450px;
+  @apply relative overflow-x-hidden ;
+}
+
+.MyCustomTable table {
+  @apply min-w-full ;
+}
+
+.MyCustomTable table thead {
+  @apply bg-blue-500;
+}
+
+.MyCustomTable table thead tr th {
+  @apply px-4 py-2 text-center cursor-pointer select-none
+}
+.actioncol{
+  @apply px-4 py-2 flex space-x-2
+}
+.cols{
+  @apply px-4 py-2 text-gray-700 text-center
+}
